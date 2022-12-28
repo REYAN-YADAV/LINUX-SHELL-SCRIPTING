@@ -10,6 +10,8 @@
 # How to check default IFS?
 IFS=$(set | grep "IFS")
 echo " The default IFS is : ${IFS}"
+                                         # set command used for to get environment variable/predeifiend variable
+                                         # (|) piping is uesd for redirecting and # grep command used for globally search for regular expresion and print it 
 
 # We can change IFS on our situation.
 IFS="-"
