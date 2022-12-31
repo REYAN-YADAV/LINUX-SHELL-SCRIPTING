@@ -11,6 +11,7 @@
 #   a) -a = logical and
 #   a) -o = logical or
 #   a) ! = logical not
+# 3) Assigment operator:=>   (=)
 # How to perform mathemathical operation?
 # => lets take an example first
 a=10
