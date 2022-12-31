@@ -14,5 +14,22 @@ if [ $a -ge 35 ]; then
 else
 	echo "Student is fail"
 fi
-	
 
+# method 2
+
+if [ $a -ge 35 -a $b -ge 35 -a $c -ge 35 ]; then
+	echo "paas"
+else
+	echo "Fail"
+fi
+# Method 3
+
+if [ $a -lt 35 ]; then
+	echo "Fail"
+elif [ $b -lt 35 ]; then
+	echo "Fail"
+elif [ $c -lt 35 ]; then
+	echo "Fail"
+else
+	echo "pass"
+fi
